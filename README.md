@@ -1,1 +1,3 @@
-# TST_IDL
+# javascript-quiz
+
+# This is my Javascript code challenge 
