@@ -1,6 +1,4 @@
-//1.1 Write a function which takes array of numbers and and a
-// function which will be called on each item and return the newly created array,
-//in two ways : Declaritive and Imperative
+// 1.1 Write a function which takes array of numbers and and a function which will be called on each item and return the newly created array, in two ways : Declaritive and Imperative
 
 /**
  * Declarative Styled Function 
@@ -19,7 +17,7 @@ function declarativeStyle(list, operation) {
  * @param {Function} operation is any function that will run over each item in list
  * @returns 
  */
-function declarativeStyle(list, operation) {
+function imperativeStyle(list, operation) {
     const resultantList = [];
     list.forEach(item=>{
         resultantList.push(operation(item))
